@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter';
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-inner {
+  width: 80%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  margin: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.border-highlight {
+  border-color: #3957e7;
+}
+.header-highlight {
+  background: #edcbcb;
+  padding: 5px 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card.dark {
+  color: white;
+  background: black;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 24px;
+}
