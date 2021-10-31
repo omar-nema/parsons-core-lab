@@ -1,0 +1,14 @@
+body {
+  color: red;
+}
+
+h1 {
+  color: red;
+  font-family: monospace;
+}
+
+.map {
+  border: 1px dashed gray;
+
+  margin-left: 150px;
+}
