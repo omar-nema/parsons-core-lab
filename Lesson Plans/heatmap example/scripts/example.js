@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', async function () {
     mapFillObject[d.pumaRegion] = d.fakePopulation;
   });
 
+  console.log(mapFillObject);
+
   //CREATE MAP NODE AND GEOMETRY
   let mapNode = d3
     .select('body')
@@ -27,7 +29,9 @@ document.addEventListener('DOMContentLoaded', async function () {
   let colorScale = d3
     .scaleLinear()
     .domain([0, d3.max(mapFillData, (d) => d.fakePopulation)])
-    .range(['white', 'black']);
+    .range(['white', 'green']);
+
+  console.log(colorScale(5000));
 
   //ASSOCIATE MAP NODE WITH MAP GEOMETRY DATA
   var projection = d3

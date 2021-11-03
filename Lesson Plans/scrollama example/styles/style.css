@@ -1,0 +1,54 @@
+* {
+  font-family: 'Arial';
+}
+
+.graphic {
+  position: sticky;
+  top: 40%;
+  left: 70%;
+  background: gray;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  color: 'blue';
+  background: blue;
+  transition: all 0.3s linear;
+}
+
+p {
+  font-size: 24px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#scrolly {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  position: relative;
+}
+section {
+  flex-basis: 50%;
+}
+.scroll-step {
+  height: 500px;
+  border: 1px solid gray;
+}
+
+.intro,
+.end {
+  height: 600px;
+}
+
+.end {
+  margin-top: 200px;
+}

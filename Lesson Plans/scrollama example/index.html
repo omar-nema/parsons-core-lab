@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scrollama Example</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
+</head>
+    
+<body>
+    <h1>Data Load Example</h1>
+    <p class="intro">
+        Let me tell you a story
+    </p>
+    <div id="scrolly">
+        <section class="text-holder">
+            <p class="scroll-step" >This is a ball</p>
+            <p class="scroll-step" data-size="50">It's going to get bigger</p>
+            <p class="scroll-step" data-size="70">And bigger</p>    
+            <p class="scroll-step"data-size="150">And BIGGER!!!</p>    
+        </section>
+        <section class="graphic">
+            <div class="ball"></div>
+        </section>
+    </div>
+    <div class="end">
+        <p>Story done</p>
+    </div>
+ 
+        
+</body>
+
+<script src="https://unpkg.com/intersection-observer"></script>
+<script src="https://unpkg.com/scrollama"></script>
+<script src="./scripts/example.js"></script>
+
+</html> 
