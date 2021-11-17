@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial';
+}
+
+#text1,
+#text3 {
+  color: blue;
+}
+#text2 {
+  color: red;
+  border: black;
+}
