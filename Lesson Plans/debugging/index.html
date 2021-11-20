@@ -7,13 +7,32 @@
 </head>
     
 <body>
-    <div id="container">
-        <p id="text1">hello i am text who r u</p>
-        <p class="text2">i am computer, and u?</p>       
-        <p id="text3">text</p> 
-    </div>
+    <main>
+
+
+        <h3>User Input</h3>
+        <div class="input-controls">
+            <div>
+                <label for="name">Add Name:</label>
+    
+                <input type="text" id="name" name="name" required
+                       minlength="4" maxlength="8" size="10">
+            </div>
+            <button id="addName">Add Name to List</button>
+
+        </div>
+ 
+
+
+        <h3>List of Names</h3>
+        <ul class="name-list">
+      
+        </ul>
+
+    </main>
+
+
 </body>
 
-<script src="./scripts/main.js"></script>
 
 </html> 

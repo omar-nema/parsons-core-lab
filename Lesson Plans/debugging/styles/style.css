@@ -3,11 +3,20 @@
   font-family: 'Arial';
 }
 
-#text1,
-#text3 {
-  color: blue;
+main {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 100px;
 }
-#text2 {
-  color: red;
-  border: black;
+
+.list-desc {
+  margin-top: 50px;
+}
+
+.input-controls {
+  display: flex;
+  flex-direction: row;
+}
+button {
+  margin-left: 15px;
 }
